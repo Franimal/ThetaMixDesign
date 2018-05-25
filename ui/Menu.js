@@ -1,17 +1,18 @@
-function Menu.loadRequiredAssets(){
-	loadAssetFromUrl("https://png.icons8.com/windows/1600/new-by-copy.png", "NewIcon");	
-}
+class Menu {
+	var menuRoot = null;
 
-var menuRoot = null;
+	constructor(){		
 
-function Menu.create(){	
-	menuRoot = newMenu("RootMenu");
+		loadAssetFromUrl("https://png.icons8.com/windows/1600/new-by-copy.png", "NewIcon");	
+
+		menuRoot = newMenu("RootMenu");
     
-    //billboard(menuRoot);
-    moveInFront(menuRoot, 2);
-  
-    //newMenuItem(menuRoot, "NewIcon", "Cube", "newCube");
-    //newMenuItem(menuRoot, "NewIcon", "Sphere", "newSphere");
-    //newMenuItem(menuRoot, "NewIcon", "Cylinder", "newCylinder");
-    //newMenuItem(menuRoot, "NewIcon", "Plane", "newPlane");
+		//billboard(menuRoot);
+		moveInFront(menuRoot, 2);
+	
+		//newMenuItem(menuRoot, "NewIcon", "Cube", "newCube");
+		//newMenuItem(menuRoot, "NewIcon", "Sphere", "newSphere");
+		//newMenuItem(menuRoot, "NewIcon", "Cylinder", "newCylinder");
+		//newMenuItem(menuRoot, "NewIcon", "Plane", "newPlane");
+	}
 }
