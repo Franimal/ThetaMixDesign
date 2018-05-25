@@ -1,0 +1,17 @@
+function Menu.loadRequiredAssets(){
+	loadAssetFromUrl("https://png.icons8.com/windows/1600/new-by-copy.png", "NewIcon");	
+}
+
+var menuRoot = null;
+
+function Menu.create(){	
+	menuRoot = newMenu("RootMenu");
+    
+    //billboard(menuRoot);
+    moveInFront(menuRoot, 2);
+  
+    //newMenuItem(menuRoot, "NewIcon", "Cube", "newCube");
+    //newMenuItem(menuRoot, "NewIcon", "Sphere", "newSphere");
+    //newMenuItem(menuRoot, "NewIcon", "Cylinder", "newCylinder");
+    //newMenuItem(menuRoot, "NewIcon", "Plane", "newPlane");
+}
