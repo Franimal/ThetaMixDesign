@@ -1,8 +1,6 @@
 var menu_menuRoot = null;
 
 function menu_create() {	
-	constructor(){		
-
 		loadAssetFromUrl("https://png.icons8.com/windows/1600/new-by-copy.png", "NewIcon");	
 
 		menu_menuRoot = newMenu("RootMenu");
@@ -14,5 +12,4 @@ function menu_create() {
 		//newMenuItem(menuRoot, "NewIcon", "Sphere", "newSphere");
 		//newMenuItem(menuRoot, "NewIcon", "Cylinder", "newCylinder");
 		//newMenuItem(menuRoot, "NewIcon", "Plane", "newPlane");
-	}
 }
