@@ -1,14 +1,14 @@
-class Menu {
-	var menuRoot = null;
+var menu_menuRoot = null;
 
+function menu_create() {	
 	constructor(){		
 
 		loadAssetFromUrl("https://png.icons8.com/windows/1600/new-by-copy.png", "NewIcon");	
 
-		menuRoot = newMenu("RootMenu");
+		menu_menuRoot = newMenu("RootMenu");
     
 		//billboard(menuRoot);
-		moveInFront(menuRoot, 2);
+		moveInFront(menu_menuRoot, 2);
 	
 		//newMenuItem(menuRoot, "NewIcon", "Cube", "newCube");
 		//newMenuItem(menuRoot, "NewIcon", "Sphere", "newSphere");
